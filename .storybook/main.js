@@ -17,7 +17,6 @@ module.exports = {
             },
           },
         },
-        'postcss-loader',
         'sass-loader',
       ],
       include: path.resolve(__dirname, '../'),

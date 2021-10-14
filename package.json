@@ -9,15 +9,22 @@
     "serve-storybook": "serve storybook-static"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^11.1.2",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "sass": "^1.43.2"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "6.0.26",
-    "@storybook/addon-links": "6.0.26",
-    "@storybook/react": "6.0.26",
+    "@storybook/addon-essentials": "^6.3.11",
+    "@storybook/addon-links": "^6.3.11",
+    "@storybook/builder-webpack5": "^6.3.11",
+    "@storybook/manager-webpack5": "^6.3.11",
+    "@storybook/react": "^6.3.11",
     "babel-loader": "^8.0.5",
-    "serve": "11.3.2"
+    "css-loader": "^6.4.0",
+    "postcss-loader": "^6.2.0",
+    "sass-loader": "^12.2.0",
+    "serve": "^12.0.1",
+    "style-loader": "^3.3.0"
   }
 }
